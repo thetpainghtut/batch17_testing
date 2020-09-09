@@ -15,6 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
    return 'By Nyi ye lin';
-  
 });
+
+Route::get('/testing',function ($value=''){
+  return 'This is a testing page!';
+});
+
+Route::resource('students','StudentController');
+
+
+
+
+
+
+
+
+
 
