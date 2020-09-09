@@ -15,7 +15,7 @@ class StudentController extends Controller
     public function index()
     {
         //
-        return 'This is student list page';
+        return 'This is student list page and Studnet index';
     }
 
     /**
